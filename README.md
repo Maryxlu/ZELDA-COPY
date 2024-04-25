@@ -16,23 +16,44 @@ it's the folder with the Java bytecode already build and ready to be blended int
 Intro: it all resorts into the resource folder.
 > Sprites are divided into square pixels of 16*16 pixels
 > respectively the sprites are (mactricially represented)
-grass, wall, 4x player walk right, health pack, 3x gun
-player damage, grass fx1, 4x player walk left, ammo item, 2x enemy walk, enemy damage,
-none, grass fx2, 6x none, 2x gun damage
+
+
+//   grass     wall         4x player walk right    health pack, 3x gun
+
+//   player    damage       grass fx1               4x player walk left     ammo item       2xenemy walk      enemy damage
+
+//   none      grass fx2    6x none                 2x gun damage
+
+
 
 > The Level editing mechanic is simple:
 (each 1 pixel is one placement in map)
+
+/////
+
 (MAKE SURE TO COPY THE COLLORS FROM THE MAP)
+
+////
+
 Black -> grass(Walkable floor)
+
 White -> walls(non walkable surface)
+
 Green -> grass animations :)
+
 Cyan blue -> Gun
+
 Blue dark -> player starting position (must be only 1 or else error)
+
 Red -> enemies
+
 Yellow -> ammo
+
 Pink -> health pack
 
+
 > Custom Font
+
 Just add a rtf file with the same name and boom you have new font :D
 
 
