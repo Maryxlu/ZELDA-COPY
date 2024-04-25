@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\GreenEarth\Documents\Desktop\ZELDA-COPY\.metadata\.plugins\org.eclipse.jdt.core
-1869155725.index
-735705145.index
